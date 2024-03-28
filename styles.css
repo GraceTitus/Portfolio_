@@ -1,0 +1,47 @@
+/* Header Styling */
+header {
+    background-color: #333; /* Dark grey background */
+    padding: 20px; /* Padding for style */
+    color: white; /* Text color */
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 20px 0; /* Margin for spacing */
+    padding: 20px; /* Padding for style */
+}
+
+/* Skills Display */
+.skills {
+    background-color: #f9f9f9; /* Off-white background */
+    margin: 20px 0; /* Margin for spacing */
+    padding: 20px; /* Padding for style */
+}
+
+.skills ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.skills li {
+    border: 1px solid #ccc; /* Border for list items */
+    padding: 10px; /* Padding for list items */
+    margin: 10px 0; /* Margin for spacing between skills */
+}
+
+/* Contact Information */
+.contact {
+    background-color: #333; /* Dark grey background */
+    color: white; /* Text color */
+    padding: 20px; /* Padding for clarity */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust margins and padding for smaller screens */
+    header, .introduction, .skills, .contact {
+        padding: 10px;
+        margin: 10px 0;
+    }
+}
